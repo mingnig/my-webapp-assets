@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <!-- viewport를 iOS에 최적화합니다. -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover, user-scalable=no">
+    <title>대학 시험 시뮬레이션</title>
+
+    <!-- iOS 전체 화면 모드를 위한 필수 설정 -->
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="default">
+    <meta name="apple-mobile-web-app-title" content="시험 시뮬레이션">
+
+    <!-- 홈 화면 아이콘 (경로는 정확해야 합니다) -->
+    <link rel="apple-touch-icon" href="https://i.ibb.co/Lz9WY7g8/Chat-GPT-Image-2025-6-10-01-45-09.png">
+
+    <!-- manifest.json 연결 -->
+    <link rel="manifest" href="./manifest.json">
+    <meta name="theme-color" content="#667eea">
+
+    <style>
+        /* 화면의 모든 여백을 없애고, iframe이 꽉 차도록 설정 */
+        html, body {
+            margin: 0;
+            padding: 0;
+            height: 100%;
+            width: 100%;
+            overflow: hidden; /* 스크롤바 숨기기 */
+        }
+        iframe {
+            border: 0;
+            height: 100%;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <!-- Apps Script 웹 앱을 여기에 통째로 불러옵니다. URL을 정확히 입력해주세요. -->
+    <iframe src="https://script.google.com/macros/s/AKfycbxqRJag7Ft1gM0cJb6WYHrxzuZkjgC5g_nb2-VqawHNbBYptgrSzHO2zOuZyVM-zbixNw/exec"></iframe>
+</body>
+</html>

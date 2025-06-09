@@ -1,0 +1,20 @@
+{
+  "name": "방통대 기말시험 시뮬레이터",
+  "short_name": "기말시험 만점루틴",
+  "start_url": "/macros/s/AKfycbwnFDknzAMXHyzUBR9txRLuK2lBUbEJubwahqyqoELUGVzol3JxpCcbziICg_HJWGfCcw/exec",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#667eea",
+  "icons": [
+    {
+      "src": "https://ibb.co/N6WPcBNs",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "https://ibb.co/N6WPcBNs",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}
